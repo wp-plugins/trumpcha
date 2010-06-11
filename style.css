@@ -1,0 +1,29 @@
+/*
+ * Author: Cane
+ * Desc: Trumpcha css
+ * Date: 2010-05-27  
+ */
+#trumpcha { width: 100%; margin: 50px 0 0 0; padding: 0;}
+#trumpcha ul { list-style: none; margin: 0; padding: 0; }
+#deck, #house { display: block; float: left; width: 250px; min-height: 80px; margin: 0; padding: 0; }
+* html #deck, * html #house { height: 80px;} /* IE6 */
+  
+.deck li, .house li { float: left; width: 40px; padding: 0 4px; margin: 2px; text-align: center; cursor: move;
+           vertical-align: middle; background: #fff; border: 1px solid #e1e1e1; font: 48px Arial; 
+           box-shadow: 1px 1px 1px rgba(0,0,0,.2); }
+.deck li:hover, .house li:hover { box-shadow: none; } 
+.deck li a, .house li a { float: right; }
+
+#house { float: right;}
+#house h4 { float: left; line-height: 16px; font-size: 12px; margin: 0 10px 0 0; color: #e1e1e1; }
+#house h4 .ui-icon { float: left; }
+#house a.ui-icon { cursor: auto; }
+
+.contour {border: 1px solid PowderBlue;}
+.house-highlight { background: #fbf9ee; }
+.house-full { border: 1px solid #cd0a0a; } 
+
+.red { color: red; }
+.black { color: black; }
+
+.state-captcha, .state-error { color: #cd0a0a; }
